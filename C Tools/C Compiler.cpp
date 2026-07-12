@@ -35,7 +35,7 @@ using namespace std;
 
 void error(int pos, string s) {
 	cerr << "错误：" << "列 " << pos << " " << s << endl;
-	system("pause");
+	std::cin.get();
 	exit(0);
 }
 
