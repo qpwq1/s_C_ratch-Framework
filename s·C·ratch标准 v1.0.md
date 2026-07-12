@@ -446,7 +446,7 @@
 > 库可以让你用C 语言轻松与 scratch 交互。比如，你希望用C 语言操控
 > scratch 角色移动到(100, 100)，则只需要先包含头文件
 >
-> \#include \<graphics.h\>
+> \#include \<./libraries/graphics.h\>
 >
 > 然后调用函数
 >
